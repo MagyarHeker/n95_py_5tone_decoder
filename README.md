@@ -47,11 +47,6 @@ Tips: start recording a moment before the transmission (leading silence is fine)
 
 `flat` prints one line per burst instead of collapsing repeats. Input: standard PCM WAV, 8 or 16 bit (first channel used).
 
-## Sample recording and tests
-
-`reference_audio/zvei.wav` is a real 10 s, 8 kHz recording containing seven `186` bursts (40 ms tones) at 2.08, 2.68, 3.22, 3.75, 4.28, 4.82 and 5.35 s.
-
-    python zvei_decoder.py reference_audio/zvei.wav 40
 
 PC tests (need Python 3 and NumPy):
 
